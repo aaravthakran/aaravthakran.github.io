@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+         background-color: rgb(181, 170, 154);
+        }
+        header {
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            background-color: #333; /* Choose a suitable background color */
+            padding: 10px; /* Add padding for better spacing */
+        }
+        
+        #logos {
+            display: flex;
+            margin-right: 20px; /* Adjust margin for better spacing */
+        }
+        
+        #logos .log {
+            margin: 0 10px; /* Adjust margin for better spacing */
+        }
+        
+        header div{
+            margin: 10px;
+            transition: font-weight 0.3s ease;
+            transition: box-shadow 0.3s;
+            border: none;
+        }
+        ul {
+            list-style-type: none; /* Remove default list item bullets */
+            padding: 0; /* Remove default padding */
+            margin: 0; /* Remove default margin */
+            display: flex; /* Use flexbox for horizontal layout */
+        }
+        
+        li {
+            margin: 10px;
+            transition: font-weight 0.3s ease, box-shadow 0.3s;
+            border: none;
+        }
+        
+        li a {
+            text-decoration: none;
+            color: white; /* Set the link color */
+        }
+        
+        li:hover {
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: underline;
+            box-shadow: 0 0 10px rgba(237, 225, 225, 0.5);
+            background: transparent;
+        }  
+        #logos{
+            display: inline-flex;
+            display:flex;
+            margin-right: 2%;
+        }
+        .log{
+            margin: 2%;
+        }
+        #port {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Center items vertically */
+        }
+        
+        #name {
+            color: white;
+            text-align: center; /* Center text */
+            margin-bottom: 20px; /* Add margin for spacing */
+        }
+        
+        #port img {
+            max-width: 100%; /* Ensure the image stays within its container */
+            border-radius: 10px; /* Add rounded corners for aesthetics */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add a subtle shadow */
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border-radius: 25px;
+            border-width: 0;
+            transition: box-shadow 1s; 
+            color :1s;
+            font-size:15px ;
+        }
+        button:hover{
+            opacity:0.6;
+            box-shadow: 5px 5px 10px rgb(0,0,0,2);
+          
+
+        }
+        button:active{
+            opacity:0.5;
+        }
+        .span1{
+                font-size: 30px; 
+                transition: font-size 0.3s ease; 
+                cursor:progress  ;
+        }
+        .span1:hover{
+               font-size: 35px; 
+               color: black;
+               margin-top: 0%;
+               padding-bottom: 0%;
+        }
+        #image{
+            border-style:inset;
+            border-radius:10px ;
+            box-shadow: 5px 5px 10px rgb(0,0,0,2); ;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+       
+        <div><ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <LI><a href="blog.html">BLOG</a></LI>
+            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul></div>
+        <div id="logos">
+            <ul class="log"><a href="https://github.com/"><img   width="23" src="./github-mark-white.png" alt="github"></a></ul>
+            <ul class="log"><a href="https://www.instagram.com/"><img width="23" src="./1658587303instagram-png.png" alt="instagram"></a></ul>
+            <ul class="log"><a href="https://twitter.com/"><img width="23" src="./580b57fcd9996e24bc43c53e.png" alt=""></a></ul>
+            <ul class="log"><a href="https://in.linkedin.com/"><img width="23" src="./317750_linkedin_icon.png" alt=""></a></ul>
+        </div>
+    </header>
+    <div id="port">
+        <div id="name"><h1><span class="span1">Hi</span>,<span class="span1">This</span> <span class="span1">is</span> <span class="span1">Aarav</span> <span class="span1">Thakran</span>.</h1>
+        <br>
+        <button>HIRE ME</button>
+        <button>PORTFOLIIO</button>
+        </div>
+        <div id="image"><img width="300"  src="./WhatsApp Image 2024-02-04 at 12.47.05 AM.jpeg" alt=""></div>
+    </div>
+
+
+
+</body>
+</html>
